@@ -1,0 +1,57 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WooTable.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="StatusBarUpdate" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Show_Min" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Show_Max" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Show_Median" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Curr_Provider" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml</Value>
+    </Setting>
+    <Setting Name="Curr_Risk" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="DialogOnMath" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Culture" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="CultureString" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="XLSNewLine" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="WooTable_OracleData" Type="System.String" Scope="User">
+      <Value Profile="(Default)">WooTable_OracleData</Value>
+    </Setting>
+    <Setting Name="OracleData_Checksums" Type="System.String" Scope="User">
+      <Value Profile="(Default)">checksums.csv</Value>
+    </Setting>
+    <Setting Name="AppDataFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">WooTable</Value>
+    </Setting>
+    <Setting Name="AppDataFilesFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Files</Value>
+    </Setting>
+    <Setting Name="OracleDataLocation" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://sudanec.com/downloads/WooTable_Oracle/_files</Value>
+    </Setting>
+    <Setting Name="UpdateTempFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">updatecheck.sud</Value>
+    </Setting>
+    <Setting Name="AppDataIconsFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Icons</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

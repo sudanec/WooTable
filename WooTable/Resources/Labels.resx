@@ -1,0 +1,485 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Ribbons_Labels_tog_WooTable_XLS_1" xml:space="preserve">
+    <value>to new XLS</value>
+  </data>
+  <data name="Ribbons_Labels_tog_WooTable_XLS_2" xml:space="preserve">
+    <value>to opened XLS</value>
+  </data>
+  <data name="Ribbon_Labels_but_WooTable_Donate" xml:space="preserve">
+    <value>Donate</value>
+  </data>
+  <data name="Ribbon_Labels_but_WooTable_Home" xml:space="preserve">
+    <value>Project home</value>
+  </data>
+  <data name="Ribbon_Labels_but_WooTable_NewTable" xml:space="preserve">
+    <value>Create new</value>
+  </data>
+  <data name="Ribbon_Labels_but_WooTable_Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Ribbon_Labels_gal_WooTable_Format" xml:space="preserve">
+    <value>Cell format</value>
+  </data>
+  <data name="Ribbon_Labels_sbut_WooTable_ConvCurrency" xml:space="preserve">
+    <value>Convert currency</value>
+  </data>
+  <data name="Ribbon_Labels_sbut_WooTable_ConvCurrency_Other" xml:space="preserve">
+    <value>Convert currency</value>
+  </data>
+  <data name="Ribbon_Labels_sbut_WooTable_DecSep" xml:space="preserve">
+    <value>Decimal separator</value>
+  </data>
+  <data name="Ribbon_Labels_sbut_WooTable_ToEnglish" xml:space="preserve">
+    <value>To English</value>
+  </data>
+  <data name="Ribbon_Labels_sbut_WooTable_ToEnglish_Other" xml:space="preserve">
+    <value>To English</value>
+  </data>
+  <data name="Ribbon_Labels_sbut_WooTable_XLS1" xml:space="preserve">
+    <value>Convert tables to Excel</value>
+  </data>
+  <data name="Ribbon_Groups_gr_Main" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="Ribbon_Groups_gr_Math" xml:space="preserve">
+    <value>Math</value>
+  </data>
+  <data name="Ribbon_Groups_gr_Other" xml:space="preserve">
+    <value>Extras</value>
+  </data>
+  <data name="Ribbon_Groups_gr_Table" xml:space="preserve">
+    <value>Table</value>
+  </data>
+  <data name="Ribbon_Groups_gr_WooTable" xml:space="preserve">
+    <value>WooTable</value>
+  </data>
+  <data name="Ribbon_Tips_but_WooTable_Avg" xml:space="preserve">
+    <value>Copy AVG of selected values in the table to clipboard</value>
+  </data>
+  <data name="Ribbon_Tips_but_WooTable_Donate" xml:space="preserve">
+    <value>Clicking here will redirect you to the project support webpage, where you can easily donate further development using PayPal or direct bank transfer. Thank you for supporting WooTable!</value>
+  </data>
+  <data name="Ribbon_Tips_but_WooTable_Home" xml:space="preserve">
+    <value>Redirects you to the WooTable homepage</value>
+  </data>
+  <data name="Ribbon_Tips_but_WooTable_Max" xml:space="preserve">
+    <value>Copy MAX of selected values in the table to clipboard</value>
+  </data>
+  <data name="Ribbon_Tips_but_WooTable_Median" xml:space="preserve">
+    <value>Copy MEDIAN of selected values in the table to clipboard</value>
+  </data>
+  <data name="Ribbon_Tips_but_WooTable_Min" xml:space="preserve">
+    <value>Copy MIN of selected values in the table to clipboard</value>
+  </data>
+  <data name="Ribbon_Tips_but_WooTable_NewTable" xml:space="preserve">
+    <value>Create a new structure table (with no borders)</value>
+  </data>
+  <data name="Ribbon_Tips_but_WooTable_Settings" xml:space="preserve">
+    <value>Open a dialog with WooTable settings and configuration</value>
+  </data>
+  <data name="Ribbon_Tips_but_WooTable_Sum" xml:space="preserve">
+    <value>Copy SUM of selected values in the table to clipboard</value>
+  </data>
+  <data name="Ribbon_Tips_but_WooTable_xls1" xml:space="preserve">
+    <value>Convert the selected range in a table to a MS Excel table. Make sure to select below if to use the opened or a new MS Excel document</value>
+  </data>
+  <data name="Ribbon_Tips_but_WooTable_xls2" xml:space="preserve">
+    <value>Convert the table in selection to a MS Excel table. Make sure to select below if to use the opened or a new MS Excel document</value>
+  </data>
+  <data name="Ribbon_Tips_gal_WooTable_Format" xml:space="preserve">
+    <value>Set the format of the selected cells. Select numeric cells in a table to use this feature. Note: this feature is stateless - Word will not remember the format you used</value>
+  </data>
+  <data name="Ribbon_Tips_sbut_WooTable_ConvCurrency" xml:space="preserve">
+    <value>Open a dialog for currency conversion. Select range of numeric cells in a word table to enable this feature</value>
+  </data>
+  <data name="Ribbon_Tips_sbut_WooTable_ConvCurrency_Other" xml:space="preserve">
+    <value>Open a dialog for currency conversion. Select a number in the text (not in a table) to enable this feature. 
+Tip: if you selected a number and the option is not enabled, probably you use incorrect decimal separator (try changing "," for "." or vice versa)</value>
+  </data>
+  <data name="Ribbon_Tips_sbut_WooTable_DecSep" xml:space="preserve">
+    <value>Replace all . and , in numbers with the current culture decimal separator. Select range of cells with numeric values in a table to apply this feature</value>
+  </data>
+  <data name="Ribbon_Tips_sbut_WooTable_ToEnglish" xml:space="preserve">
+    <value>Convert number to written english. Select cells containing number values in a table to enable this feature</value>
+  </data>
+  <data name="Ribbon_Tips_sbut_WooTable_ToEnglish_Other" xml:space="preserve">
+    <value>Convert number to written english. Select a number in the text (not in a table) to enable this feature. 
+Tip: if you selected a number and the option is not enabled, probably you use incorrect decimal separator (try changing "," for "." or vice versa)</value>
+  </data>
+  <data name="Ribbon_Tips_sbut_WooTable_XLS1" xml:space="preserve">
+    <value>Convert all tables in the document to MS Excel</value>
+  </data>
+  <data name="Ribbon_Tips_tog_WooTable_XLS" xml:space="preserve">
+    <value>Select if the Excel export is done to a new document or to the currently opened document</value>
+  </data>
+  <data name="Form_CurrencyConverter" xml:space="preserve">
+    <value>WooTable .::. Currency Converter</value>
+  </data>
+  <data name="Form_CurrencyConverter_but_Apply" xml:space="preserve">
+    <value>Convert</value>
+  </data>
+  <data name="Form_CurrencyConverter_but_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Form_CurrencyConverter_lab_Risk" xml:space="preserve">
+    <value>Conversion risk coefficient:</value>
+  </data>
+  <data name="Form_CurrencyConverter_lab_Riski" xml:space="preserve">
+    <value>(all values will be incremented by this %)</value>
+  </data>
+  <data name="Form_CurrencyConverter_lab_Source" xml:space="preserve">
+    <value>Source currency:</value>
+  </data>
+  <data name="Form_CurrencyConverter_lab_Target" xml:space="preserve">
+    <value>Target currency:</value>
+  </data>
+  <data name="Form_CurrencyConverter_lab_To" xml:space="preserve">
+    <value>Convert to:</value>
+  </data>
+  <data name="Form_NewTable" xml:space="preserve">
+    <value>WooTable .::. Create New Structural Table</value>
+  </data>
+  <data name="Form_NewTable_but_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Form_NewTable_but_Create" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="Form_NewTable_group_Dimensions" xml:space="preserve">
+    <value>Dimensions</value>
+  </data>
+  <data name="Form_NewTable_lab_Columns" xml:space="preserve">
+    <value>Columns</value>
+  </data>
+  <data name="Form_NewTable_lab_Rows" xml:space="preserve">
+    <value>Rows</value>
+  </data>
+  <data name="Form_NumberFormat" xml:space="preserve">
+    <value>WooTable .::. Set Number Format</value>
+  </data>
+  <data name="Form_NumberFormat_but_Apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="Form_NumberFormat_but_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Form_NumberFormat_grid_Formats_1" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="Form_NumberFormat_grid_Formats_2" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="Form_NumberFormat_grid_Formats_3" xml:space="preserve">
+    <value>Example</value>
+  </data>
+  <data name="Form_NumberFormat_grid_Formats_val1" xml:space="preserve">
+    <value>Currency</value>
+  </data>
+  <data name="Form_NumberFormat_grid_Formats_val2" xml:space="preserve">
+    <value>Accounting</value>
+  </data>
+  <data name="Form_NumberFormat_grid_Formats_val3" xml:space="preserve">
+    <value>Scientific</value>
+  </data>
+  <data name="Form_NumberFormat_grid_Formats_val4" xml:space="preserve">
+    <value>Custom..</value>
+  </data>
+  <data name="Form_NumberFormat_lab_Custom" xml:space="preserve">
+    <value>Set format string:</value>
+  </data>
+  <data name="Form_NumberFormat_lab_Info" xml:space="preserve">
+    <value>Select a number format or set your own</value>
+  </data>
+  <data name="Form_Settings" xml:space="preserve">
+    <value>WooTable .::. Settings</value>
+  </data>
+  <data name="Form_Settings_but_Apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="Form_Settings_but_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Form_Settings_check_DialogOnMath" xml:space="preserve">
+    <value>Show confirmation dialog when using MIN/MAX/AVG/SUM/MED copy functions</value>
+  </data>
+  <data name="Form_Settings_check_ModifyStatusBar" xml:space="preserve">
+    <value>Use Status Bar to show mathematical data on selection</value>
+  </data>
+  <data name="Form_Settings_check_ShowMax" xml:space="preserve">
+    <value>Show maximum (MAX) value</value>
+  </data>
+  <data name="Form_Settings_check_ShowMedian" xml:space="preserve">
+    <value>Show median (MED) value</value>
+  </data>
+  <data name="Form_Settings_check_ShowMin" xml:space="preserve">
+    <value>Show minimum (MIN) value</value>
+  </data>
+  <data name="Form_Settings_gr_Currency" xml:space="preserve">
+    <value>Currency exchange</value>
+  </data>
+  <data name="Form_Settings_gr_Misc" xml:space="preserve">
+    <value>Miscellaneous</value>
+  </data>
+  <data name="Form_Settings_gr_StatusBar" xml:space="preserve">
+    <value>Status Bar</value>
+  </data>
+  <data name="Form_Settings_label_lang" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Form_Settings_lab_Provider" xml:space="preserve">
+    <value>Exchange ratio provider</value>
+  </data>
+  <data name="Form_Settings_lab_Ratio" xml:space="preserve">
+    <value>Default conversion risk</value>
+  </data>
+  <data name="Form_Settings_lab_ShowMedian" xml:space="preserve">
+    <value>(if disabled, will stop MEDIAN calculation at all)</value>
+  </data>
+  <data name="Ribbon_Labels_but_WooTable_Avg" xml:space="preserve">
+    <value>AVG</value>
+  </data>
+  <data name="Ribbon_Labels_but_WooTable_Max" xml:space="preserve">
+    <value>MAX</value>
+  </data>
+  <data name="Ribbon_Labels_but_WooTable_Median" xml:space="preserve">
+    <value>MED</value>
+  </data>
+  <data name="Ribbon_Labels_but_WooTable_Min" xml:space="preserve">
+    <value>MIN</value>
+  </data>
+  <data name="Ribbon_Labels_but_WooTable_Sum" xml:space="preserve">
+    <value>SUM</value>
+  </data>
+  <data name="Ribbon_Labels_gal_WooTable_Format_gal_WooTable_but_Currency" xml:space="preserve">
+    <value>Currency</value>
+  </data>
+  <data name="Ribbon_Labels_gal_WooTable_Format_gal_WooTable_but_Float1" xml:space="preserve">
+    <value>Float 1 decimal point</value>
+  </data>
+  <data name="Ribbon_Labels_gal_WooTable_Format_gal_WooTable_but_Float2" xml:space="preserve">
+    <value>Float 2 decimal points</value>
+  </data>
+  <data name="Ribbon_Labels_gal_WooTable_Format_gal_WooTable_but_Float3" xml:space="preserve">
+    <value>Float 3 decimal points</value>
+  </data>
+  <data name="Ribbon_Labels_gal_WooTable_Format_gal_WooTable_but_Float4" xml:space="preserve">
+    <value>Float 4 decimal points</value>
+  </data>
+  <data name="Ribbon_Labels_gal_WooTable_Format_gal_WooTable_but_Other" xml:space="preserve">
+    <value>Other..</value>
+  </data>
+  <data name="Ribbon_Labels_gal_WooTable_Format_gal_WooTable_but_Percent" xml:space="preserve">
+    <value>Percentage</value>
+  </data>
+  <data name="Ribbon_Labels_gal_WooTable_Format_gal_WooTable_but_String" xml:space="preserve">
+    <value>String</value>
+  </data>
+  <data name="Ribbon_Labels_sbut_WooTable_ToEnglish_Other_sbut_but_WooTable_Other_ToEnglish_Currency" xml:space="preserve">
+    <value>As currency</value>
+  </data>
+  <data name="Ribbon_Labels_sbut_WooTable_ToEnglish_sbut_but_WooTable_ToEnglish_Currency" xml:space="preserve">
+    <value>As currency</value>
+  </data>
+  <data name="Ribbon_Labels_tog_WooTable_XLS" xml:space="preserve">
+    <value>to new XLS</value>
+  </data>
+  <data name="Ribbon_Labels_tog_WooTable_XLS1" xml:space="preserve">
+    <value>to opened XLS</value>
+  </data>
+  <data name="Form_CurrencyConverter_lab_Riskp" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="Form_Settings_check_ReplaceNLine" xml:space="preserve">
+    <value>Export multiline cell as a single cell</value>
+  </data>
+  <data name="Form_Settings_gr_XLSCopy" xml:space="preserve">
+    <value>Export to Excel</value>
+  </data>
+  <data name="Form_Settings_lab_Ratio2" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="Form_Settings_lab_ReplaceNLine" xml:space="preserve">
+    <value>Note: does NOT work for copy of selected range</value>
+  </data>
+  <data name="Ribbon_Labels_sbut_WooTable_XLS1_sbut_but_WooTable_XLS1_Select" xml:space="preserve">
+    <value>Select tables to be converted..</value>
+  </data>
+  <data name="TablesPane_but_Apply" xml:space="preserve">
+    <value>Convert</value>
+  </data>
+  <data name="TablesPane_but_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="DocsPane_but_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Form_Settings_gr_Oracle" xml:space="preserve">
+    <value>Oracle</value>
+  </data>
+  <data name="Form_Settings_lab_OracleData" xml:space="preserve">
+    <value>Templates location</value>
+  </data>
+  <data name="Form_Settings_lab_OracleData_Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Form_Settings_lab_OracleData_Username" xml:space="preserve">
+    <value>User name</value>
+  </data>
+  <data name="Panes_Docs" xml:space="preserve">
+    <value>Documents</value>
+  </data>
+  <data name="Panes_Tables" xml:space="preserve">
+    <value>Tables</value>
+  </data>
+  <data name="Ribbon_Groups_gr_Oracle" xml:space="preserve">
+    <value>Oracle tools</value>
+  </data>
+  <data name="Ribbon_Labels_sbut_WooTable_Oracle_Format" xml:space="preserve">
+    <value>Format this document</value>
+  </data>
+  <data name="Ribbon_Labels_sbut_WooTable_Oracle_Icons" xml:space="preserve">
+    <value>Icons</value>
+  </data>
+  <data name="Ribbon_Labels_sbut_WooTable_Oracle_NewDoc" xml:space="preserve">
+    <value>New document</value>
+  </data>
+  <data name="Ribbon_Tips_sbut_WooTable_Oracle_Format" xml:space="preserve">
+    <value>Format this document to Oracle standards</value>
+  </data>
+  <data name="Ribbon_Tips_sbut_WooTable_Oracle_Icons" xml:space="preserve">
+    <value>Insert Oracle icons</value>
+  </data>
+  <data name="Ribbon_Tips_sbut_WooTable_Oracle_NewDoc" xml:space="preserve">
+    <value>Open selection of available file templates</value>
+  </data>
+  <data name="Panes_Icons" xml:space="preserve">
+    <value>Icons</value>
+  </data>
+  <data name="DocsPane_but_Create" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="IconsPane_but_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="IconsPane_but_Create" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+</root>

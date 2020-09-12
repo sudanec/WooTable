@@ -1,0 +1,489 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Ribbons_Labels_tog_WooTable_XLS_1" xml:space="preserve">
+    <value>do nového XLS</value>
+  </data>
+  <data name="Ribbons_Labels_tog_WooTable_XLS_2" xml:space="preserve">
+    <value>do otvoreného XLS</value>
+  </data>
+  <data name="Ribbon_Groups_gr_Main" xml:space="preserve">
+    <value>Hlavné</value>
+  </data>
+  <data name="Ribbon_Groups_gr_Math" xml:space="preserve">
+    <value>Matematické</value>
+  </data>
+  <data name="Ribbon_Groups_gr_Other" xml:space="preserve">
+    <value>Extra</value>
+  </data>
+  <data name="Ribbon_Groups_gr_Table" xml:space="preserve">
+    <value>Tabuľka</value>
+  </data>
+  <data name="Ribbon_Groups_gr_WooTable" xml:space="preserve">
+    <value>WooTable</value>
+  </data>
+  <data name="Ribbon_Labelss_sbut_WooTable_DecSep" xml:space="preserve">
+    <value>Oddeľovač desatinných miest</value>
+  </data>
+  <data name="Ribbon_Labels_but_WooTable_Donate" xml:space="preserve">
+    <value>Podporiť</value>
+  </data>
+  <data name="Ribbon_Labels_but_WooTable_Home" xml:space="preserve">
+    <value>Webstránka projektu</value>
+  </data>
+  <data name="Ribbon_Labels_but_WooTable_NewTable" xml:space="preserve">
+    <value>Vytvoriť novú</value>
+  </data>
+  <data name="Ribbon_Labels_but_WooTable_Settings" xml:space="preserve">
+    <value>Nastavenia</value>
+  </data>
+  <data name="Ribbon_Labels_gal_WooTable_Format" xml:space="preserve">
+    <value>Formát bunky</value>
+  </data>
+  <data name="Ribbon_Labels_sbut_WooTable_ConvCurrency" xml:space="preserve">
+    <value>Konvertovať menu</value>
+  </data>
+  <data name="Ribbon_Labels_sbut_WooTable_ConvCurrency_Other" xml:space="preserve">
+    <value>Konvertovať menu</value>
+  </data>
+  <data name="Ribbon_Labels_sbut_WooTable_ToEnglish" xml:space="preserve">
+    <value>Konvertuj do angličtiny</value>
+  </data>
+  <data name="Ribbon_Labels_sbut_WooTable_ToEnglish_Other" xml:space="preserve">
+    <value>Konvertuj do angličtiny</value>
+  </data>
+  <data name="Ribbon_Labels_sbut_WooTable_XLS1" xml:space="preserve">
+    <value>Konvertuj tabuľky do Excelu</value>
+  </data>
+  <data name="Ribbon_Tips_but_WooTable_Avg" xml:space="preserve">
+    <value>Kopíruj priemer zo zvolených buniek do clipboardu</value>
+  </data>
+  <data name="Ribbon_Tips_but_WooTable_Donate" xml:space="preserve">
+    <value>Páči sa vám projekt WooTable? Podporte ho ľubovoľným príspevkom cez PayPal alebo priamym prevodom na účet a pomôžte v jeho ďalšom vývoji</value>
+  </data>
+  <data name="Ribbon_Tips_but_WooTable_Home" xml:space="preserve">
+    <value>Presmerovanie na domácu webstránku projektu WooTable</value>
+  </data>
+  <data name="Ribbon_Tips_but_WooTable_Max" xml:space="preserve">
+    <value>Kopíruj maximum zo zvolených buniek do clipboardu</value>
+  </data>
+  <data name="Ribbon_Tips_but_WooTable_Median" xml:space="preserve">
+    <value>Kopíruj medián zo zvolených buniek do clipboardu</value>
+  </data>
+  <data name="Ribbon_Tips_but_WooTable_Min" xml:space="preserve">
+    <value>Kopíruj minimum zo zvolených buniek do clipboardu</value>
+  </data>
+  <data name="Ribbon_Tips_but_WooTable_NewTable" xml:space="preserve">
+    <value>Vytvor novú štrukturálnu tabuľku (bez ohraničenia)</value>
+  </data>
+  <data name="Ribbon_Tips_but_WooTable_Settings" xml:space="preserve">
+    <value>Upraviť nastavenia doplnku WooTable</value>
+  </data>
+  <data name="Ribbon_Tips_but_WooTable_Sum" xml:space="preserve">
+    <value>Kopíruj sumu zvolených buniek do clipboardu</value>
+  </data>
+  <data name="Ribbon_Tips_but_WooTable_xls1" xml:space="preserve">
+    <value>Konvertuj zvolený rozsah buniek do tabuľky MS Excel. Nižšie si zvoľte, či budú dáta skopírované do nového dokumentu MS Excel alebo do práve otvoreného dokumentu</value>
+  </data>
+  <data name="Ribbon_Tips_but_WooTable_xls2" xml:space="preserve">
+    <value>Konvertuj zvolenú tabuľku na tabuľku MS Excel. Nižšie si zvoľte, či budú dáta skopírované do nového dokumentu MS Excel alebo do práve otvoreného dokumentu</value>
+  </data>
+  <data name="Ribbon_Tips_gal_WooTable_Format" xml:space="preserve">
+    <value>Nastav formát označených buniek. Zvoľte bunky v tabuľke obsahujúce čísla pre použitie tohoto nástroja. Poznámka: Word si nebude pamätať, aký formát bol použitý; ide iba o lokálnu úpravu formátu</value>
+  </data>
+  <data name="Ribbon_Tips_sbut_WooTable_ConvCurrency" xml:space="preserve">
+    <value>Otvorí dialógové okno pre konverziu meny. Zvoľte bunky v tabuľke obsahujúce čísla pre použitie tohoto nástroja</value>
+  </data>
+  <data name="Ribbon_Tips_sbut_WooTable_ConvCurrency_Other" xml:space="preserve">
+    <value>Otvorí dialógové okno pre konverziu meny. Zvoľte číslo v texte (nie v tabuľke) pre použitie tohoto nástroja. Ak ste zvolili číslo a táto možnosť nie je aktívna, pravdepodobne číslo obsahuje nesprávny oddeľovač desatinných miest ("." miesto "," alebo obrátene)</value>
+  </data>
+  <data name="Ribbon_Tips_sbut_WooTable_DecSep" xml:space="preserve">
+    <value>Nahradiť všetky "." a "," správnym oddeľovačom desatinných miest pre aktuálne zvolenú kultúru. Zvoľte bunky v tabuľke obsahujúce čísla pre použitie tohoto nástroja.</value>
+  </data>
+  <data name="Ribbon_Tips_sbut_WooTable_ToEnglish" xml:space="preserve">
+    <value>Konvertuj čísla do písanej angličtiny. Zvoľte bunky v tabuľke obsahujúce čísla pre použitie tohoto nástroja.</value>
+  </data>
+  <data name="Ribbon_Tips_sbut_WooTable_ToEnglish_Other" xml:space="preserve">
+    <value>Konvertuj čísla do písanej angličtiny. Zvoľte číslo v texte (nie v tabuľke) pre použitie tohoto nástroja. Ak ste zvolili číslo a táto možnosť nie je aktívna, pravdepodobne číslo obsahuje nesprávny oddeľovač desatinných miest ("." miesto "," alebo obrátene)</value>
+  </data>
+  <data name="Ribbon_Tips_sbut_WooTable_XLS1" xml:space="preserve">
+    <value>Konvertuj všetky tabuľky v tomto dokumente do MS Excel</value>
+  </data>
+  <data name="Ribbon_Tips_tog_WooTable_XLS" xml:space="preserve">
+    <value>Zvoľte kliknutím, či bude export do Excelu vykonaný do práve otvoreného alebo do nového dokumentu MS Excel</value>
+  </data>
+  <data name="Form_CurrencyConverter" xml:space="preserve">
+    <value>WooTable .::. Konverzia meny</value>
+  </data>
+  <data name="Form_CurrencyConverter_but_Apply" xml:space="preserve">
+    <value>Konvertovať</value>
+  </data>
+  <data name="Form_CurrencyConverter_but_Cancel" xml:space="preserve">
+    <value>Zrušiť</value>
+  </data>
+  <data name="Form_CurrencyConverter_lab_Risk" xml:space="preserve">
+    <value>Koeficient rizika konverzie:</value>
+  </data>
+  <data name="Form_CurrencyConverter_lab_Riski" xml:space="preserve">
+    <value>(všetky hodnoty budú navýšené o zvolené % ich hodnoty)</value>
+  </data>
+  <data name="Form_CurrencyConverter_lab_Source" xml:space="preserve">
+    <value>Zdrojová mena:</value>
+  </data>
+  <data name="Form_CurrencyConverter_lab_Target" xml:space="preserve">
+    <value>Cieľová mena:</value>
+  </data>
+  <data name="Form_CurrencyConverter_lab_To" xml:space="preserve">
+    <value>Konvertovať na:</value>
+  </data>
+  <data name="Form_NewTable" xml:space="preserve">
+    <value>WooTable .::. Nová štrukturálna tabuľka</value>
+  </data>
+  <data name="Form_NewTable_but_Cancel" xml:space="preserve">
+    <value>Zrušiť</value>
+  </data>
+  <data name="Form_NewTable_but_Create" xml:space="preserve">
+    <value>Vytvoriť</value>
+  </data>
+  <data name="Form_NewTable_group_Dimensions" xml:space="preserve">
+    <value>Rozmery</value>
+  </data>
+  <data name="Form_NewTable_lab_Columns" xml:space="preserve">
+    <value>Stĺpce</value>
+  </data>
+  <data name="Form_NewTable_lab_Rows" xml:space="preserve">
+    <value>Riadky</value>
+  </data>
+  <data name="Form_NumberFormat" xml:space="preserve">
+    <value>WooTable .::. Formát čísel</value>
+  </data>
+  <data name="Form_NumberFormat_but_Apply" xml:space="preserve">
+    <value>Použiť</value>
+  </data>
+  <data name="Form_NumberFormat_but_Cancel" xml:space="preserve">
+    <value>Zrušiť</value>
+  </data>
+  <data name="Form_NumberFormat_grid_Formats_1" xml:space="preserve">
+    <value>Formát</value>
+  </data>
+  <data name="Form_NumberFormat_grid_Formats_2" xml:space="preserve">
+    <value>Kód</value>
+  </data>
+  <data name="Form_NumberFormat_grid_Formats_3" xml:space="preserve">
+    <value>Príklad</value>
+  </data>
+  <data name="Form_NumberFormat_grid_Formats_val1" xml:space="preserve">
+    <value>Mena</value>
+  </data>
+  <data name="Form_NumberFormat_grid_Formats_val2" xml:space="preserve">
+    <value>Účtovnícke</value>
+  </data>
+  <data name="Form_NumberFormat_grid_Formats_val3" xml:space="preserve">
+    <value>Vedecké</value>
+  </data>
+  <data name="Form_NumberFormat_grid_Formats_val4" xml:space="preserve">
+    <value>Vlastné..</value>
+  </data>
+  <data name="Form_NumberFormat_lab_Custom" xml:space="preserve">
+    <value>Nastavte formátovací reťazec:</value>
+  </data>
+  <data name="Form_NumberFormat_lab_Info" xml:space="preserve">
+    <value>Zvoľte formát čísel alebo nastavte vlastný</value>
+  </data>
+  <data name="Form_Settings" xml:space="preserve">
+    <value>WooTable .::. Nastavenia</value>
+  </data>
+  <data name="Form_Settings_but_Apply" xml:space="preserve">
+    <value>Použiť</value>
+  </data>
+  <data name="Form_Settings_but_Cancel" xml:space="preserve">
+    <value>Zrušiť</value>
+  </data>
+  <data name="Form_Settings_check_DialogOnMath" xml:space="preserve">
+    <value>Zobraziť potvrdenie pri použití funkcií kopírovania hodnoty MIN/MAX/AVG/SUM/MED</value>
+  </data>
+  <data name="Form_Settings_check_ModifyStatusBar" xml:space="preserve">
+    <value>Používať informačný panel na zobrazenie matematických informácií o zvolených bunkách</value>
+  </data>
+  <data name="Form_Settings_check_ShowMax" xml:space="preserve">
+    <value>Zobraziť hodnotu maxima (MAX)</value>
+  </data>
+  <data name="Form_Settings_check_ShowMedian" xml:space="preserve">
+    <value>Zobraziť hodnotu medián (MED)</value>
+  </data>
+  <data name="Form_Settings_check_ShowMin" xml:space="preserve">
+    <value>Zobraziť hodnotu minima (MIN)</value>
+  </data>
+  <data name="Form_Settings_gr_Currency" xml:space="preserve">
+    <value>Konverzia meny</value>
+  </data>
+  <data name="Form_Settings_gr_Misc" xml:space="preserve">
+    <value>Rôzne</value>
+  </data>
+  <data name="Form_Settings_gr_StatusBar" xml:space="preserve">
+    <value>Informačný panel</value>
+  </data>
+  <data name="Form_Settings_label_lang" xml:space="preserve">
+    <value>Jazyk</value>
+  </data>
+  <data name="Form_Settings_lab_Provider" xml:space="preserve">
+    <value>Poskytovateľ výmenných kurzov</value>
+  </data>
+  <data name="Form_Settings_lab_Ratio" xml:space="preserve">
+    <value>Predvolené riziko konverzie meny</value>
+  </data>
+  <data name="Form_Settings_lab_ShowMedian" xml:space="preserve">
+    <value>(ak táto možnosť nie je zvolená, medián nebude počítaný vôbec)</value>
+  </data>
+  <data name="Ribbon_Labels_but_WooTable_Avg" xml:space="preserve">
+    <value>AVG</value>
+  </data>
+  <data name="Ribbon_Labels_but_WooTable_Max" xml:space="preserve">
+    <value>MAX</value>
+  </data>
+  <data name="Ribbon_Labels_but_WooTable_Median" xml:space="preserve">
+    <value>MED</value>
+  </data>
+  <data name="Ribbon_Labels_but_WooTable_Min" xml:space="preserve">
+    <value>MIN</value>
+  </data>
+  <data name="Ribbon_Labels_but_WooTable_Sum" xml:space="preserve">
+    <value>SUM</value>
+  </data>
+  <data name="Ribbon_Labels_gal_WooTable_Format_gal_WooTable_but_Currency" xml:space="preserve">
+    <value>Mena</value>
+  </data>
+  <data name="Ribbon_Labels_gal_WooTable_Format_gal_WooTable_but_Float1" xml:space="preserve">
+    <value>Reálne číslo - 1 des. miesto</value>
+  </data>
+  <data name="Ribbon_Labels_gal_WooTable_Format_gal_WooTable_but_Float2" xml:space="preserve">
+    <value>Reálne číslo - 2 des. miesta</value>
+  </data>
+  <data name="Ribbon_Labels_gal_WooTable_Format_gal_WooTable_but_Float3" xml:space="preserve">
+    <value>Reálne číslo - 3 des. miesta</value>
+  </data>
+  <data name="Ribbon_Labels_gal_WooTable_Format_gal_WooTable_but_Float4" xml:space="preserve">
+    <value>Reálne číslo - 4 des. miesta</value>
+  </data>
+  <data name="Ribbon_Labels_gal_WooTable_Format_gal_WooTable_but_Other" xml:space="preserve">
+    <value>Iné..</value>
+  </data>
+  <data name="Ribbon_Labels_gal_WooTable_Format_gal_WooTable_but_Percent" xml:space="preserve">
+    <value>Percentá</value>
+  </data>
+  <data name="Ribbon_Labels_gal_WooTable_Format_gal_WooTable_but_String" xml:space="preserve">
+    <value>Textový reťazec</value>
+  </data>
+  <data name="Ribbon_Labels_sbut_WooTable_ToEnglish_Other_sbut_but_WooTable_Other_ToEnglish_Currency" xml:space="preserve">
+    <value>Ako mena</value>
+  </data>
+  <data name="Ribbon_Labels_sbut_WooTable_ToEnglish_sbut_but_WooTable_ToEnglish_Currency" xml:space="preserve">
+    <value>Ako mena</value>
+  </data>
+  <data name="Ribbon_Labels_tog_WooTable_XLS" xml:space="preserve">
+    <value>nový Excel</value>
+  </data>
+  <data name="Ribbon_Labels_tog_WooTable_XLS1" xml:space="preserve">
+    <value>otvorený Excel</value>
+  </data>
+  <data name="Form_CurrencyConverter_lab_Riskp" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="Form_Settings_check_ReplaceNLine" xml:space="preserve">
+    <value>Exportovať viacriadkovú bunku ako jednu bunku</value>
+  </data>
+  <data name="Form_Settings_gr_XLSCopy" xml:space="preserve">
+    <value>Export do Excelu</value>
+  </data>
+  <data name="Form_Settings_lab_Ratio2" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="Form_Settings_lab_ReplaceNLine" xml:space="preserve">
+    <value>Nefunguje pre možnosť exportovať iba rozsah</value>
+  </data>
+  <data name="Ribbon_Labels_sbut_WooTable_XLS1_sbut_but_WooTable_XLS1_Select" xml:space="preserve">
+    <value>Konvertuj vybrané tabuľky..</value>
+  </data>
+  <data name="TablesPane_but_Apply" xml:space="preserve">
+    <value>Konvertuj</value>
+  </data>
+  <data name="TablesPane_but_Cancel" xml:space="preserve">
+    <value>Zrušiť</value>
+  </data>
+  <data name="TablesPane_chkbox_Text" xml:space="preserve">
+    <value>Konvertuj aj text</value>
+  </data>
+  <data name="DocsPane_but_Cancel" xml:space="preserve">
+    <value>Zrušiť</value>
+  </data>
+  <data name="Form_Settings_combo_OracleDataLocation" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Form_Settings_gr_Oracle" xml:space="preserve">
+    <value>Oracle</value>
+  </data>
+  <data name="Form_Settings_lab_OracleData" xml:space="preserve">
+    <value>Umiestnenie šablón</value>
+  </data>
+  <data name="Form_Settings_lab_OracleData_Password" xml:space="preserve">
+    <value>Heslo</value>
+  </data>
+  <data name="Form_Settings_lab_OracleData_Username" xml:space="preserve">
+    <value>Používateľské meno</value>
+  </data>
+  <data name="Panes_Docs" xml:space="preserve">
+    <value>Dokumenty</value>
+  </data>
+  <data name="Panes_Tables" xml:space="preserve">
+    <value>Tables</value>
+  </data>
+  <data name="Ribbon_Groups_gr_Oracle" xml:space="preserve">
+    <value>Nástroje Oracle</value>
+  </data>
+  <data name="Ribbon_Labels_sbut_WooTable_Oracle_Format" xml:space="preserve">
+    <value>Formátuj tento dokument</value>
+  </data>
+  <data name="Ribbon_Labels_sbut_WooTable_Oracle_Icons" xml:space="preserve">
+    <value>Ikony</value>
+  </data>
+  <data name="Ribbon_Labels_sbut_WooTable_Oracle_NewDoc" xml:space="preserve">
+    <value>Nový dokument</value>
+  </data>
+  <data name="Ribbon_Tips_sbut_WooTable_Oracle_Format" xml:space="preserve">
+    <value>Formátuj tento dokument podľa štandardov Oracle</value>
+  </data>
+  <data name="Ribbon_Tips_sbut_WooTable_Oracle_Icons" xml:space="preserve">
+    <value>Vložiť ikony Oracle</value>
+  </data>
+  <data name="Ribbon_Tips_sbut_WooTable_Oracle_NewDoc" xml:space="preserve">
+    <value>Otvor ponuku dostupných šablón</value>
+  </data>
+  <data name="Panes_Icons" xml:space="preserve">
+    <value>Ikony</value>
+  </data>
+  <data name="DocsPane_but_Create" xml:space="preserve">
+    <value>Vytvoriť</value>
+  </data>
+  <data name="IconsPane_but_Cancel" xml:space="preserve">
+    <value>Zrušiť</value>
+  </data>
+  <data name="IconsPane_but_Create" xml:space="preserve">
+    <value>Vložiť</value>
+  </data>
+</root>
